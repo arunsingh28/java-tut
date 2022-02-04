@@ -3,7 +3,7 @@ import java.util.*;
 public class Main{
     public static void main(String[] args){
         Date now = new Date();
-        System.out.println("Date :"+ now);
-       
+        System.out.println("Date :"+ now.getDate());
+        
     }
 }
