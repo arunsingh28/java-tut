@@ -8,7 +8,7 @@ public class Main {
 
     // string
     public static void main(String[] args){
-        String message = "Hello World !";
-        System.out.println(message.replace("!","*"));
+        String message = " Hello World !";
+        System.out.println(message.trim());
     }
 }
