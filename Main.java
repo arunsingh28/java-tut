@@ -6,9 +6,12 @@ public class Main {
     // System.out.println("Date :"+ now.getDate());
     // }
 
-    // string
+    // array
     public static void main(String[] args){
-        String message = " Hello World !";
-        System.out.println(message.trim());
+       int[] numbers = new int[5];
+        numbers[0] = 1;
+        numbers[1] = 2;
+        numbers[2] = 3;
+        System.out.println(numbers);
     }
 }
