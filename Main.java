@@ -7,12 +7,9 @@ public class Main {
     // }
 
     // array
-    public static void main(String[] args){
-       int[] numbers = new int[5];
-        numbers[0] = 1;
-        numbers[1] = 2;
-        numbers[2] = 3;
-        String newNumner = Arrays.toString(numbers);
-        System.out.println(newNumner);
+    public static void main(String[] args) {
+        int[] numbers = { 1, 40, 5, 7, 10 };
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
     }
 }
