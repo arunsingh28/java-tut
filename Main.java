@@ -8,9 +8,5 @@ public class Main {
 
     // implicit casting
     // byte > short > int > long > float > double > char > boolean
-    public static void main(String[] args) {
-    short a = 10;
-    int b = a;
-    System.out.println(b);  
-    }
+
 }
