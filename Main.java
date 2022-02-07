@@ -12,6 +12,7 @@ public class Main {
         numbers[0] = 1;
         numbers[1] = 2;
         numbers[2] = 3;
-        System.out.println(numbers);
+        String newNumner = Arrays.toString(numbers);
+        System.out.println(newNumner);
     }
 }
