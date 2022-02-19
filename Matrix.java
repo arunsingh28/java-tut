@@ -26,5 +26,10 @@ public class Matrix {
          }
       }
 
+      // adding two rows
+      for(int i=0;i<matrix.length;i++){
+         
+      }
+
    }
 }
